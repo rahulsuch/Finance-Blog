@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style-type: none;
+  padding: 0.2em 1em;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+header img {
+  max-width: 10em;
+  max-height: 4em;
+}
+.upper-nav {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.nav-contact {
+  display: flex;
+  justify-content: center;
+}
+.lower-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lower-nav ul {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 0 2em;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #003a70;
+}
+
+/* css of search bar*/
+.search-hover {
+  border: 1px solid #ccc;
+  outline: none;
+  background-size: 22px;
+  background-position: 13px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 25px;
+  transition: all 0.5s;
+}
+.search-hover:hover {
+  width: 300px;
+  padding-left: 50px;
+}
